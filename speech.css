@@ -1,0 +1,84 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(70, 17, 113),rgb(105, 51, 129));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: aliceblue;
+
+}
+.main h1 span{
+    color: rgb(215, 215, 38);
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #7d2ca6;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: rgb(153, 152, 152);
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background:#fd366b ;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    width: 140px;
+}
+button img{
+    width: 16px;
+    margin-right: 10px;
+    padding-right: 2px;
+}
+select{
+    flex: 1;
+    color: #fff;
+    background: #7d2ca6;
+    height: 45px;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    appearance: none;
+    background-image: url(./images/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right 20px center;
+    padding-left: 15px;
+    
+}
+
+
